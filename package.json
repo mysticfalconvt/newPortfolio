@@ -1,11 +1,11 @@
 {
-  "name": "Rob Boskind Portfolio",
+  "name": "RobBoskindPortfolio",
   "private": false,
   "description": "Portfolio website",
   "homepage": "boskind.tech",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jvidalv/nextal.git"
+    "url": "git+https://github.com/mysticfalconvt/newPortfolio"
   },
   "author": "Robert Boskind <rboskind@gmail.com>",
   "license": "MIT",
