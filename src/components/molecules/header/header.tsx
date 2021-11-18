@@ -8,9 +8,9 @@ const Header = (): JSX.Element => {
   return (
     <header className={styles.header}>
       <h3 className={styles.topTitle}>
-        <span className={styles.nextal}>Nextal</span> @ NextJs Template
+        <span className={styles.name}>Robert </span>Boskind
       </h3>
-      <h1 className={styles.title}>TypeScript & Tailwind</h1>
+      <h1 className={styles.title}>Developer & Teacher</h1>
       <p className={styles.description}>
         Get your website up and running faster than ever. Comes with:{" "}
         <code className={styles.code}>CSS-Modules</code>,{" "}

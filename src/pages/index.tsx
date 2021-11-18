@@ -87,16 +87,16 @@ const Home: NextPage = () => {
         <title>Robert Boskind - Teacher / Developer</title>
         <meta
           name="description"
-          content="NextJs starter template using TypeScript and Tailwind"
+          content="Developer Portfolio for Robert Boskind"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <section className={styles.copy}>
         <div className={styles.copyInner}>
-          <a href="https://github.com/jvidalv/nextal">
+          <a href="https://github.com/mysticfalconvt">
             <Button>Visit on Github</Button>
           </a>
-          <CopyButton text="npx degit jvidalv/nextal my-nextjs-app" />
+
         </div>
       </section>
       <section className={styles.features}>

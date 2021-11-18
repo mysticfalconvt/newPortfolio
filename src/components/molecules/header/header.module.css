@@ -6,11 +6,11 @@
   @apply text-2xl sm:text-4xl leading-none font-bold tracking-tight text-gray-500;
 }
 
-.nextal {
+.name {
   @apply text-black opacity-75;
 }
 
-:global(.dark) .nextal {
+:global(.dark) .name {
   @apply text-white;
 }
 
