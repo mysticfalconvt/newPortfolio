@@ -110,7 +110,7 @@ const Home: NextPage = () => {
       </Head>
       <section className={styles.copy}>
         <div className={styles.copyInner}>
-          <a href="/Resume.pdf">
+          <a href="/Resume Robert Boskind.pdf">
             <Button>View Resume</Button>
           </a>
         </div>

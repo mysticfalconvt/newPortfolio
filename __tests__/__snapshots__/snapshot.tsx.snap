@@ -9,7 +9,7 @@ Array [
       className="copyInner"
     >
       <a
-        href="/Resume.pdf"
+        href="/Resume Robert Boskind.pdf"
       >
         <button
           className="button"
@@ -53,6 +53,46 @@ Array [
   <section
     className="features"
   >
+    <div
+      className="feature"
+    >
+      <a
+        className="feature"
+        href="https://github.com/mysticfalconvt"
+      >
+        <h2
+          className="title"
+        >
+          Full-Stack Developer
+           →
+        </h2>
+        <p
+          className="description"
+        >
+          I build applications from idea to production serving many daily users.
+        </p>
+      </a>
+    </div>
+    <div
+      className="feature"
+    >
+      <a
+        className="feature"
+        href="https://boskind.tech/blog/school-dashboard-mk-ii"
+      >
+        <h2
+          className="title"
+        >
+          School Dashboard Application
+           →
+        </h2>
+        <p
+          className="description"
+        >
+          I built this application to help teachers, students, and parents manage their school experience.
+        </p>
+      </a>
+    </div>
     <div
       className="feature"
     >
@@ -138,66 +178,6 @@ Array [
     >
       <a
         className="feature"
-        href="https://www.typescriptlang.org/"
-      >
-        <h2
-          className="title"
-        >
-          TypeScript
-           →
-        </h2>
-        <p
-          className="description"
-        >
-          Strongly typed programming language that builds on JavaScript.
-        </p>
-      </a>
-    </div>
-    <div
-      className="feature"
-    >
-      <a
-        className="feature"
-        href="https://tailwindcss.com/"
-      >
-        <h2
-          className="title"
-        >
-          Tailwind with JIT
-           →
-        </h2>
-        <p
-          className="description"
-        >
-          A utility-first CSS framework packed with classes.
-        </p>
-      </a>
-    </div>
-    <div
-      className="feature"
-    >
-      <a
-        className="feature"
-        href="https://tailwindcss.com/docs/dark-mode"
-      >
-        <h2
-          className="title"
-        >
-          Dark Mode
-           →
-        </h2>
-        <p
-          className="description"
-        >
-          Dark theme support for CSS-Modules and Tailwind.
-        </p>
-      </a>
-    </div>
-    <div
-      className="feature"
-    >
-      <a
-        className="feature"
         href="https://nodejs.org/"
       >
         <h2
@@ -250,6 +230,146 @@ Array [
           className="description"
         >
           NoSQL database with a JSON-like document schema.
+        </p>
+      </a>
+    </div>
+    <div
+      className="feature"
+    >
+      <a
+        className="feature"
+        href="https://graphql.org/"
+      >
+        <h2
+          className="title"
+        >
+          GraphQL
+           →
+        </h2>
+        <p
+          className="description"
+        >
+          A query language for APIs and a runtime for fulfilling those queries with your existing data.
+        </p>
+      </a>
+    </div>
+    <div
+      className="feature"
+    >
+      <a
+        className="feature"
+        href="https://react-query.tanstack.com/"
+      >
+        <h2
+          className="title"
+        >
+          React-Query
+           →
+        </h2>
+        <p
+          className="description"
+        >
+          Fetch, cache and update data in your React and React Native applications all without touching any "global state".
+        </p>
+      </a>
+    </div>
+    <div
+      className="feature"
+    >
+      <a
+        className="feature"
+        href="https://styled-components.com/"
+      >
+        <h2
+          className="title"
+        >
+          Styled Components
+           →
+        </h2>
+        <p
+          className="description"
+        >
+          Visual primitives for the component age. Use the best bits of ES6 and CSS to style your apps without stress
+        </p>
+      </a>
+    </div>
+    <div
+      className="feature"
+    >
+      <a
+        className="feature"
+        href="https://tailwindcss.com/"
+      >
+        <h2
+          className="title"
+        >
+          Tailwind
+           →
+        </h2>
+        <p
+          className="description"
+        >
+          A utility-first CSS framework packed with classes.
+        </p>
+      </a>
+    </div>
+    <div
+      className="feature"
+    >
+      <a
+        className="feature"
+        href="https://www.typescriptlang.org/"
+      >
+        <h2
+          className="title"
+        >
+          TypeScript
+           →
+        </h2>
+        <p
+          className="description"
+        >
+          Strongly typed programming language that builds on JavaScript.
+        </p>
+      </a>
+    </div>
+    <div
+      className="feature"
+    >
+      <a
+        className="feature"
+        href="https://www.netlify.com/"
+      >
+        <h2
+          className="title"
+        >
+          Netlify
+           →
+        </h2>
+        <p
+          className="description"
+        >
+          A fully-managed platform for deploying static sites.
+        </p>
+      </a>
+    </div>
+    <div
+      className="feature"
+    >
+      <a
+        className="feature"
+        href="https://www.linode.com/"
+      >
+        <h2
+          className="title"
+        >
+          Linode
+           →
+        </h2>
+        <p
+          className="description"
+        >
+          A cloud platform for hosting websites and apps.
         </p>
       </a>
     </div>
