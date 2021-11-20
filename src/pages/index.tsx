@@ -1,10 +1,10 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Button from "@/components/atoms/button";
-import CopyButton from "@/components/molecules/copy-button";
 import Feature, { FeatureProps } from "@/components/molecules/feature";
 
 import styles from "./index.module.css";
+import Title from "@/components/atoms/title";
 
 const features: FeatureProps[] = [
   {
@@ -72,12 +72,6 @@ const features: FeatureProps[] = [
       "We’re not designing pages, we’re designing systems of components.",
     link: "https://bradfrost.com/blog/post/atomic-web-design/",
   },
-  {
-    title: "Absolute imports",
-    description:
-      "Import resource using its full path from the project’s src folder.",
-    link: "https://github.com/vitejs/vite/issues/88#issuecomment-762415200",
-  },
 ];
 
 const Home: NextPage = () => {
@@ -89,17 +83,17 @@ const Home: NextPage = () => {
           name="description"
           content="Developer Portfolio for Robert Boskind"
         />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/Wheel-icon.svg" />
       </Head>
       <section className={styles.copy}>
         <div className={styles.copyInner}>
           <a href="https://github.com/mysticfalconvt">
             <Button>Visit on Github</Button>
           </a>
-
         </div>
       </section>
       <section className={styles.features}>
+        <Title title="TestTitle" description="testDesc"></Title>
         {features.map((f) => (
           <div key={f.title} className={styles.feature}>
             <Feature {...f} />

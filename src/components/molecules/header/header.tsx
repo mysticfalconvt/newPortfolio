@@ -12,16 +12,9 @@ const Header = (): JSX.Element => {
       </h3>
       <h1 className={styles.title}>Developer & Teacher</h1>
       <p className={styles.description}>
-        Get your website up and running faster than ever. Comes with:{" "}
-        <code className={styles.code}>CSS-Modules</code>,{" "}
-        <code className={styles.code}>Jest</code>,{" "}
-        <code className={styles.code}>Dark mode</code>,{" "}
-        <code className={styles.code}>Husky</code>,{" "}
-        <code className={styles.code}>Commit-lint</code>,{" "}
-        <code className={styles.code}>ESLint</code>,{" "}
-        <code className={styles.code}>Prettier</code> and{" "}
-        <code className={styles.code}>Atomic organization</code>. Configured and
-        ready to go.
+        Full-Stack Software Engineer with a passion for{" "}
+        <code className={styles.code}>Teaching</code>,{" and "}
+        <code className={styles.code}>Learning</code>.
       </p>
       <button
         className={styles.themeButton}
