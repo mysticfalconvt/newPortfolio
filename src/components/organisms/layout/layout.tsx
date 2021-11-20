@@ -7,9 +7,11 @@ import styles from "./layout.module.css";
 const Layout: FC = ({ children }) => {
   return (
     <div className={styles.layout}>
-      <Header />
-      <main>{children}</main>
-      <Footer />
+      <div className={styles.content}>
+        <Header />
+        <main>{children}</main>
+        <Footer />
+      </div>
     </div>
   );
 };

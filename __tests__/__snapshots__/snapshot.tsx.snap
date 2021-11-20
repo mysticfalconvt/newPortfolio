@@ -9,6 +9,37 @@ Array [
       className="copyInner"
     >
       <a
+        href="/Resume.pdf"
+      >
+        <button
+          className="button"
+        >
+          View Resume
+        </button>
+      </a>
+    </div>
+    <div
+      className="header"
+    >
+      <h2
+        className="topTitle"
+      >
+        <span
+          className="title"
+        >
+          Experience
+        </span>
+      </h2>
+      <h3
+        className="topTitle"
+      >
+        Skills and Technologies
+      </h3>
+    </div>
+    <div
+      className="copyInner"
+    >
+      <a
         href="https://github.com/mysticfalconvt"
       >
         <button
@@ -23,22 +54,44 @@ Array [
     className="features"
   >
     <div
-      className="header"
+      className="feature"
     >
-      <h2
-        className="topTitle"
+      <a
+        className="feature"
+        href="https://boskind.tech/blog/tinkercad-in-math-class"
       >
-        <span
+        <h2
           className="title"
         >
-          TestTitle
-        </span>
-      </h2>
-      <h3
-        className="topTitle"
+          Math Teacher
+           →
+        </h2>
+        <p
+          className="description"
+        >
+          Teaching 8th grade math with a flare for making and code.
+        </p>
+      </a>
+    </div>
+    <div
+      className="feature"
+    >
+      <a
+        className="feature"
+        href="https://textbasedstarter-1.grimgarbage.repl.co/"
       >
-        testDesc
-      </h3>
+        <h2
+          className="title"
+        >
+          Coding Club
+           →
+        </h2>
+        <p
+          className="description"
+        >
+          Supervising a group of enthusiastic middle-schoolers creating great projects using Python or Javascript
+        </p>
+      </a>
     </div>
     <div
       className="feature"
@@ -50,7 +103,7 @@ Array [
         <h2
           className="title"
         >
-          Next
+          Next.js
            →
         </h2>
         <p
@@ -70,7 +123,7 @@ Array [
         <h2
           className="title"
         >
-          React
+          React.js
            →
         </h2>
         <p
@@ -125,26 +178,6 @@ Array [
     >
       <a
         className="feature"
-        href="https://jestjs.io/"
-      >
-        <h2
-          className="title"
-        >
-          Jest
-           →
-        </h2>
-        <p
-          className="description"
-        >
-          Testing Framework with a focus on simplicity.
-        </p>
-      </a>
-    </div>
-    <div
-      className="feature"
-    >
-      <a
-        className="feature"
         href="https://tailwindcss.com/docs/dark-mode"
       >
         <h2
@@ -165,18 +198,18 @@ Array [
     >
       <a
         className="feature"
-        href="https://github.com/css-modules/css-modules"
+        href="https://nodejs.org/"
       >
         <h2
           className="title"
         >
-          CSS Modules
+          Node.js
            →
         </h2>
         <p
           className="description"
         >
-          CSS file in which all class names and animation names are scoped locally by default.
+          JavaScript runtime built on Chrome's V8 JavaScript engine.
         </p>
       </a>
     </div>
@@ -185,18 +218,18 @@ Array [
     >
       <a
         className="feature"
-        href="https://eslint.org/"
+        href="https://expressjs.com/"
       >
         <h2
           className="title"
         >
-          ESLint
+          Express
            →
         </h2>
         <p
           className="description"
         >
-          Find and fix problems in your JavaScript code.
+          Fast, unopinionated, minimalist web framework for Node.js.
         </p>
       </a>
     </div>
@@ -205,78 +238,18 @@ Array [
     >
       <a
         className="feature"
-        href="https://prettier.io/"
+        href="https://www.mongodb.com/"
       >
         <h2
           className="title"
         >
-          Prettier
+          MongoDB
            →
         </h2>
         <p
           className="description"
         >
-          An opinionated code formatter.
-        </p>
-      </a>
-    </div>
-    <div
-      className="feature"
-    >
-      <a
-        className="feature"
-        href="https://github.com/typicode/husky"
-      >
-        <h2
-          className="title"
-        >
-          Husky
-           →
-        </h2>
-        <p
-          className="description"
-        >
-          Lint your commit messages, run tests, lint code, etc... when you commit or push.
-        </p>
-      </a>
-    </div>
-    <div
-      className="feature"
-    >
-      <a
-        className="feature"
-        href="https://github.com/conventional-changelog/commitlint"
-      >
-        <h2
-          className="title"
-        >
-          Commit-lint
-           →
-        </h2>
-        <p
-          className="description"
-        >
-          Helps your team adhering to a commit convention.
-        </p>
-      </a>
-    </div>
-    <div
-      className="feature"
-    >
-      <a
-        className="feature"
-        href="https://bradfrost.com/blog/post/atomic-web-design/"
-      >
-        <h2
-          className="title"
-        >
-          Atomic design
-           →
-        </h2>
-        <p
-          className="description"
-        >
-          We’re not designing pages, we’re designing systems of components.
+          NoSQL database with a JSON-like document schema.
         </p>
       </a>
     </div>

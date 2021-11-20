@@ -14,7 +14,9 @@ const Header = (): JSX.Element => {
       <p className={styles.description}>
         Full-Stack Software Engineer with a passion for{" "}
         <code className={styles.code}>Teaching</code>,{" and "}
-        <code className={styles.code}>Learning</code>.
+        <code className={styles.code}>Learning</code>. I have turned every job
+        that I have ever had into a{" "}
+        <code className={styles.code}>software project</code>.
       </p>
       <button
         className={styles.themeButton}

@@ -8,13 +8,24 @@ import Title from "@/components/atoms/title";
 
 const features: FeatureProps[] = [
   {
-    title: "Next",
+    title: "Math Teacher",
+    description: "Teaching 8th grade math with a flare for making and code.",
+    link: "https://boskind.tech/blog/tinkercad-in-math-class",
+  },
+  {
+    title: "Coding Club",
+    description:
+      "Supervising a group of enthusiastic middle-schoolers creating great projects using Python or Javascript",
+    link: "https://textbasedstarter-1.grimgarbage.repl.co/",
+  },
+  {
+    title: "Next.js",
     description:
       "Best developer experience with all the features you need for production: hybrid static & server rendering",
     link: "https://nextjs.org/",
   },
   {
-    title: "React",
+    title: "React.js",
     description: "JavaScript library for building user interfaces.",
     link: "https://reactjs.org/",
   },
@@ -30,47 +41,24 @@ const features: FeatureProps[] = [
     link: "https://tailwindcss.com/",
   },
   {
-    title: "Jest",
-    description: "Testing Framework with a focus on simplicity.",
-    link: "https://jestjs.io/",
-  },
-  {
     title: "Dark Mode",
     description: "Dark theme support for CSS-Modules and Tailwind.",
     link: "https://tailwindcss.com/docs/dark-mode",
   },
   {
-    title: "CSS Modules",
-    description:
-      "CSS file in which all class names and animation names are scoped locally by default.",
-    link: "https://github.com/css-modules/css-modules",
+    title: "Node.js",
+    description: "JavaScript runtime built on Chrome's V8 JavaScript engine.",
+    link: "https://nodejs.org/",
   },
   {
-    title: "ESLint",
-    description: "Find and fix problems in your JavaScript code.",
-    link: "https://eslint.org/",
+    title: "Express",
+    description: "Fast, unopinionated, minimalist web framework for Node.js.",
+    link: "https://expressjs.com/",
   },
   {
-    title: "Prettier",
-    description: "An opinionated code formatter.",
-    link: "https://prettier.io/",
-  },
-  {
-    title: "Husky",
-    description:
-      "Lint your commit messages, run tests, lint code, etc... when you commit or push.",
-    link: "https://github.com/typicode/husky",
-  },
-  {
-    title: "Commit-lint",
-    description: "Helps your team adhering to a commit convention.",
-    link: "https://github.com/conventional-changelog/commitlint",
-  },
-  {
-    title: "Atomic design",
-    description:
-      "We’re not designing pages, we’re designing systems of components.",
-    link: "https://bradfrost.com/blog/post/atomic-web-design/",
+    title: "MongoDB",
+    description: "NoSQL database with a JSON-like document schema.",
+    link: "https://www.mongodb.com/",
   },
 ];
 
@@ -87,13 +75,18 @@ const Home: NextPage = () => {
       </Head>
       <section className={styles.copy}>
         <div className={styles.copyInner}>
+          <a href="/Resume.pdf">
+            <Button>View Resume</Button>
+          </a>
+        </div>
+        <Title title="Experience" description="Skills and Technologies"></Title>
+        <div className={styles.copyInner}>
           <a href="https://github.com/mysticfalconvt">
             <Button>Visit on Github</Button>
           </a>
         </div>
       </section>
       <section className={styles.features}>
-        <Title title="TestTitle" description="testDesc"></Title>
         {features.map((f) => (
           <div key={f.title} className={styles.feature}>
             <Feature {...f} />
