@@ -8,6 +8,18 @@ import Title from "@/components/atoms/title";
 
 const features: FeatureProps[] = [
   {
+    title: "Full-Stack Developer",
+    description:
+      "I build applications from idea to production serving many daily users.",
+    link: "https://github.com/mysticfalconvt",
+  },
+  {
+    title: "School Dashboard Application",
+    description:
+      "I built this application to help teachers, students, and parents manage their school experience.",
+    link: "https://boskind.tech/blog/school-dashboard-mk-ii",
+  },
+  {
     title: "Math Teacher",
     description: "Teaching 8th grade math with a flare for making and code.",
     link: "https://boskind.tech/blog/tinkercad-in-math-class",
@@ -30,22 +42,6 @@ const features: FeatureProps[] = [
     link: "https://reactjs.org/",
   },
   {
-    title: "TypeScript",
-    description:
-      "Strongly typed programming language that builds on JavaScript.",
-    link: "https://www.typescriptlang.org/",
-  },
-  {
-    title: "Tailwind with JIT",
-    description: "A utility-first CSS framework packed with classes.",
-    link: "https://tailwindcss.com/",
-  },
-  {
-    title: "Dark Mode",
-    description: "Dark theme support for CSS-Modules and Tailwind.",
-    link: "https://tailwindcss.com/docs/dark-mode",
-  },
-  {
     title: "Node.js",
     description: "JavaScript runtime built on Chrome's V8 JavaScript engine.",
     link: "https://nodejs.org/",
@@ -59,6 +55,45 @@ const features: FeatureProps[] = [
     title: "MongoDB",
     description: "NoSQL database with a JSON-like document schema.",
     link: "https://www.mongodb.com/",
+  },
+  {
+    title: "GraphQL",
+    description:
+      "A query language for APIs and a runtime for fulfilling those queries with your existing data.",
+    link: "https://graphql.org/",
+  },
+  {
+    title: "React-Query",
+    description:
+      'Fetch, cache and update data in your React and React Native applications all without touching any "global state".',
+    link: "https://react-query.tanstack.com/",
+  },
+  {
+    title: "Styled Components",
+    description:
+      "Visual primitives for the component age. Use the best bits of ES6 and CSS to style your apps without stress",
+    link: "https://styled-components.com/",
+  },
+  {
+    title: "Tailwind",
+    description: "A utility-first CSS framework packed with classes.",
+    link: "https://tailwindcss.com/",
+  },
+  {
+    title: "TypeScript",
+    description:
+      "Strongly typed programming language that builds on JavaScript.",
+    link: "https://www.typescriptlang.org/",
+  },
+  {
+    title: "Netlify",
+    description: "A fully-managed platform for deploying static sites.",
+    link: "https://www.netlify.com/",
+  },
+  {
+    title: "Linode",
+    description: "A cloud platform for hosting websites and apps.",
+    link: "https://www.linode.com/",
   },
 ];
 
