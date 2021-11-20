@@ -1,9 +1,9 @@
 .header {
-  @apply flex flex-col place-content-evenly;
+  @apply flex flex-col place-content-evenly sm:flex;
 }
 
 .topTitle {
-  @apply text-2xl sm:text-4xl leading-none font-bold tracking-tight text-gray-500;
+  @apply text-2xl sm:text-4xl leading-none font-bold tracking-tight text-gray-500 pb-4 sm:pb-0;
 }
 
 .name {
@@ -15,7 +15,7 @@
 }
 
 .title {
-  @apply text-6xl lg:text-7xl font-extrabold tracking-tight mb-8 sm:mb-10 text-transparent bg-clip-text bg-gradient-to-br from-green-400 to-green-800;
+  @apply text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight mb-8 sm:mb-10 text-transparent bg-clip-text bg-gradient-to-br from-green-400 to-green-800;
 }
 
 .description {
