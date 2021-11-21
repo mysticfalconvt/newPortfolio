@@ -1,10 +1,14 @@
 .feature {
-  @apply block rounded-md p-6 text-left border border-gray-200 max-w-xl h-full transition-all;
+  @apply block rounded-md p-6 text-left border border-gray-200 max-w-xl h-full transition-all shadow-md bg-gray-100 bg-opacity-20;
   @apply hover:border-green-500;
 }
 
 :global(.dark) .feature {
-  @apply border-gray-700 hover:border-green-500;
+  @apply border-gray-700 hover:border-green-500 shadow-lg bg-gray-700 bg-opacity-20;
+}
+
+.feature:hover {
+  @apply bg-opacity-40 animate-pulse;
 }
 
 .title {

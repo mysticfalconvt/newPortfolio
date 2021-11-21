@@ -238,6 +238,26 @@ Array [
     >
       <a
         className="feature"
+        href="https://boskind.tech"
+      >
+        <h2
+          className="title"
+        >
+          Gatsby.js
+           →
+        </h2>
+        <p
+          className="description"
+        >
+          Static site generator to build fast, secure, and powerful websites using a React-based framework.
+        </p>
+      </a>
+    </div>
+    <div
+      className="feature"
+    >
+      <a
+        className="feature"
         href="https://graphql.org/"
       >
         <h2

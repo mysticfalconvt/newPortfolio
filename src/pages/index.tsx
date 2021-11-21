@@ -57,6 +57,12 @@ const features: FeatureProps[] = [
     link: "https://www.mongodb.com/",
   },
   {
+    title: "Gatsby.js",
+    description:
+      "Static site generator to build fast, secure, and powerful websites using a React-based framework.",
+    link: "https://boskind.tech",
+  },
+  {
     title: "GraphQL",
     description:
       "A query language for APIs and a runtime for fulfilling those queries with your existing data.",
