@@ -1,5 +1,5 @@
 .layout {
-  @apply px-4 min-h-screen sm:px-0 space-y-16 w-full;
+  @apply  min-h-screen sm:px-0 space-y-16 w-full overflow-x-hidden;
   background-image: radial-gradient(hsla(0, 0%, 25%, 0.25) 1px, transparent 0),
     radial-gradient(hsla(0, 0%, 20%, 0.1) 1px, transparent 0);
   background-size: 50px 50px;
@@ -8,7 +8,11 @@
   animation: slide 3s linear infinite;
 }
 .content {
-  @apply container mx-auto px-4 sm:px-2;
+  @apply container  mx-auto px-4 sm:px-2;
+}
+
+.body {
+  @apply flex flex-col sm:flex-row;
 }
 
 :global(.dark) .layout {

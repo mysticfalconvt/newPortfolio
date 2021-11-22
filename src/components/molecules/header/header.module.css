@@ -39,7 +39,7 @@
 }
 
 .themeButton {
-  @apply absolute top-12 right-12 opacity-75;
+  @apply absolute top-4 right-4 sm:top-12 sm:right-12 opacity-75;
   animation: bounce 8s cubic-bezier(0.4, 0, 0.2, 1) infinite;
 }
 
