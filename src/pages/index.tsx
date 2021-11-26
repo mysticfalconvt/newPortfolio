@@ -1,9 +1,7 @@
 import type { NextPage } from "next";
-import Head from "next/head";
 import Button from "@/components/atoms/button";
 import Feature, { FeatureProps } from "@/components/molecules/feature";
-
-import styles from "./index.module.css";
+import styles from "../styles/index.module.css";
 import Title from "@/components/atoms/title";
 
 const features: FeatureProps[] = [
@@ -106,14 +104,7 @@ const features: FeatureProps[] = [
 const Home: NextPage = () => {
   return (
     <>
-      <Head>
-        <title>Robert Boskind - Teacher / Developer</title>
-        <meta
-          name="description"
-          content="Developer Portfolio for Robert Boskind"
-        />
-        <link rel="icon" href="/Wheel-icon.svg" />
-      </Head>
+
       <section className={styles.copy}>
         <div className={styles.copyInner}>
           <a href="/Resume Robert Boskind.pdf">

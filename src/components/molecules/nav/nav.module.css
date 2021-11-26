@@ -1,6 +1,6 @@
 .nav {
-  @apply   sm:w-10 flex flex-row w-screen sm:flex-col shadow-lg bg-gray-600 bg-opacity-20
-  m-0 p-1 align-middle justify-start sm:justify-start;
+  @apply   md:w-10 flex flex-row w-screen md:flex-col shadow-lg bg-gray-600 bg-opacity-20
+  m-0 p-1 align-middle justify-start md:justify-start md:fixed md:top-0 md:z-20 md:h-screen;
 }
 
 :global(.dark) .nav{
@@ -9,7 +9,7 @@
 
 .iconGroup {
   @apply  cursor-pointer flex flex-row p-1 mx-4 justify-center items-center bg-green-700 bg-opacity-20 rounded-lg
-   transition-all duration-300 ease-in-out sm:my-3;
+   transition-all duration-300 ease-in-out md:my-4 md:mx-0;
 }
 
 :global(.dark) .iconGroup{
@@ -22,9 +22,10 @@
 }
 
 .iconTooltip {
-  @apply   px-2;
+  @apply   px-2 hidden sm:block md:hidden;
 }
 
-/* :hover.iconTooltip {
-  @apply  text-white opacity-100;
-} */
+
+:hover.iconTooltip {
+  @apply  text-white opacity-100 md:block;
+}

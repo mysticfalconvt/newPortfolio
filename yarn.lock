@@ -747,10 +747,10 @@
   "resolved" "https://registry.npmjs.org/@napi-rs/triples/-/triples-1.0.3.tgz"
   "version" "1.0.3"
 
-"@next/env@12.0.3":
-  "integrity" "sha512-QcdlpcwIH9dYcVlNAU+gXaqHA/omskbRlb+R3vN7LlB2EgLt+9WQwbokcHOsNyt4pI7kDM67W4tr9l7dWnlGdQ=="
-  "resolved" "https://registry.npmjs.org/@next/env/-/env-12.0.3.tgz"
-  "version" "12.0.3"
+"@next/env@12.0.5-canary.8":
+  "integrity" "sha512-mKLIQ1mItfzhjy+Nph7ALCm7LqqOsg7ePz63nrpLL+hTjlsaLAGTZm2KeIqNI8oBhcpiYeyTpHeinNLKssxQ9w=="
+  "resolved" "https://registry.npmjs.org/@next/env/-/env-12.0.5-canary.8.tgz"
+  "version" "12.0.5-canary.8"
 
 "@next/eslint-plugin-next@12.0.3":
   "integrity" "sha512-P7i+bMypneQcoRN+CX79xssvvIJCaw7Fndzbe7/lB0+LyRbVvGVyMUsFmLLbSxtZq4hvFMJ1p8wML/gsulMZWQ=="
@@ -759,15 +759,15 @@
   dependencies:
     "glob" "7.1.7"
 
-"@next/polyfill-module@12.0.3":
-  "integrity" "sha512-fgjVjdCk0Jq627d/N33oQIJjWrcKtzw6Dfa2PfypoIJ35/xFIKgs6mPyvq8cg3Ao5b7dEn9+Rw45PGjlY5e7JA=="
-  "resolved" "https://registry.npmjs.org/@next/polyfill-module/-/polyfill-module-12.0.3.tgz"
-  "version" "12.0.3"
+"@next/polyfill-module@12.0.5-canary.8":
+  "integrity" "sha512-0wWLebJbb4eNGPXXZY/7eOgEhZA+TQCDgZ0VGuMb7e9TDKjh1mqiYZ5vdZaOgjDOx++mtW7NjnHNtNh5ZoVg1g=="
+  "resolved" "https://registry.npmjs.org/@next/polyfill-module/-/polyfill-module-12.0.5-canary.8.tgz"
+  "version" "12.0.5-canary.8"
 
-"@next/react-dev-overlay@12.0.3":
-  "integrity" "sha512-gHfDEVHFeTUpQMcyytzvkuOu+5DQXjXbCbQHuavFftYrlHqXfzYFsa+wERff+g4/0IzEvcYVp3F4gdmynWfUog=="
-  "resolved" "https://registry.npmjs.org/@next/react-dev-overlay/-/react-dev-overlay-12.0.3.tgz"
-  "version" "12.0.3"
+"@next/react-dev-overlay@12.0.5-canary.8":
+  "integrity" "sha512-tCnQVN0QjlL+cJk6AFQD/YzdyfDz5gvKb5b6fhYSoeTtwk5UsB7KO3bg0wClPnUkEX8c3iUjG8jHV2kOGY4MEw=="
+  "resolved" "https://registry.npmjs.org/@next/react-dev-overlay/-/react-dev-overlay-12.0.5-canary.8.tgz"
+  "version" "12.0.5-canary.8"
   dependencies:
     "@babel/code-frame" "7.12.11"
     "anser" "1.4.9"
@@ -781,20 +781,15 @@
     "stacktrace-parser" "0.1.10"
     "strip-ansi" "6.0.1"
 
-"@next/react-refresh-utils@12.0.3":
-  "integrity" "sha512-YPtlfvkYh/4MvNNm5w3uwo+1KPMg67snzr5CuexbRewsu2ITaF7f0bh0Jcayi20wztk8SgWjNz1bmF8j9qbWIw=="
-  "resolved" "https://registry.npmjs.org/@next/react-refresh-utils/-/react-refresh-utils-12.0.3.tgz"
-  "version" "12.0.3"
+"@next/react-refresh-utils@12.0.5-canary.8":
+  "integrity" "sha512-/UA3ilcjkrJxq7L9rIUUCspUs28FwxUMR0BD4LtJ5JGGpU1O7m7Lym8zb22dZVnqMvRx2lLYy6TSJ7zWHo2Qpg=="
+  "resolved" "https://registry.npmjs.org/@next/react-refresh-utils/-/react-refresh-utils-12.0.5-canary.8.tgz"
+  "version" "12.0.5-canary.8"
 
-"@next/swc-darwin-arm64@12.0.3":
-  "integrity" "sha512-iKSe2hCMB51Ft41cNAxZk6St1rBlqSRtBSl4oO0zJlGu7bCxXCGCJ058/OLvYxcNWgz7ODOApObm3Yjv8XEvxg=="
-  "resolved" "https://registry.npmjs.org/@next/swc-darwin-arm64/-/swc-darwin-arm64-12.0.3.tgz"
-  "version" "12.0.3"
-
-"@next/swc-darwin-x64@12.0.3":
-  "integrity" "sha512-/BcnfLyhIj4rgU3yVDfD8uXK2TcNYIdflYHKkjFxd3/J1GWOtBN31m0dB8fL0h5LdW11kzaXvVvab3f5ilkEww=="
-  "resolved" "https://registry.npmjs.org/@next/swc-darwin-x64/-/swc-darwin-x64-12.0.3.tgz"
-  "version" "12.0.3"
+"@next/swc-darwin-arm64@12.0.5-canary.8":
+  "integrity" "sha512-rOWafFpyQR5ApXO8WA5SN8csJE8osL+Gspq2GZdLntNcpKbCsR5QCrKhCvErWlMoh89/UnfuAwRBqryamsDgTg=="
+  "resolved" "https://registry.npmjs.org/@next/swc-darwin-arm64/-/swc-darwin-arm64-12.0.5-canary.8.tgz"
+  "version" "12.0.5-canary.8"
 
 "@nodelib/fs.scandir@2.1.5":
   "integrity" "sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g=="
@@ -4560,18 +4555,18 @@
   "resolved" "https://registry.npmjs.org/next-themes/-/next-themes-0.0.15.tgz"
   "version" "0.0.15"
 
-"next@*", "next@>=10.2.0", "next@12.0.3":
-  "integrity" "sha512-GGdhTBcerdMZbitrO67IVetmB+AHa2X69xrkXKClUT8SRu8pEVto/2QMSnfI+uYc5czCUWPsVtVY3aMoMRMaCA=="
-  "resolved" "https://registry.npmjs.org/next/-/next-12.0.3.tgz"
-  "version" "12.0.3"
+"next@*", "next@>=10.2.0", "next@12.0.5-canary.8":
+  "integrity" "sha512-bF8/8nHSSSZd1Yq53NjOzWKc2cVNCL8scGChjpe0psCR3Zcve3qyXQpbCO8vrZF0AxfGq+hisYKtOiq+XTaDzQ=="
+  "resolved" "https://registry.npmjs.org/next/-/next-12.0.5-canary.8.tgz"
+  "version" "12.0.5-canary.8"
   dependencies:
     "@babel/runtime" "7.15.4"
     "@hapi/accept" "5.0.2"
     "@napi-rs/triples" "1.0.3"
-    "@next/env" "12.0.3"
-    "@next/polyfill-module" "12.0.3"
-    "@next/react-dev-overlay" "12.0.3"
-    "@next/react-refresh-utils" "12.0.3"
+    "@next/env" "12.0.5-canary.8"
+    "@next/polyfill-module" "12.0.5-canary.8"
+    "@next/react-dev-overlay" "12.0.5-canary.8"
+    "@next/react-refresh-utils" "12.0.5-canary.8"
     "acorn" "8.5.0"
     "assert" "2.0.0"
     "browserify-zlib" "0.2.0"
@@ -4615,17 +4610,17 @@
     "vm-browserify" "1.1.2"
     "watchpack" "2.1.1"
   optionalDependencies:
-    "@next/swc-android-arm64" "12.0.3"
-    "@next/swc-darwin-arm64" "12.0.3"
-    "@next/swc-darwin-x64" "12.0.3"
-    "@next/swc-linux-arm-gnueabihf" "12.0.3"
-    "@next/swc-linux-arm64-gnu" "12.0.3"
-    "@next/swc-linux-arm64-musl" "12.0.3"
-    "@next/swc-linux-x64-gnu" "12.0.3"
-    "@next/swc-linux-x64-musl" "12.0.3"
-    "@next/swc-win32-arm64-msvc" "12.0.3"
-    "@next/swc-win32-ia32-msvc" "12.0.3"
-    "@next/swc-win32-x64-msvc" "12.0.3"
+    "@next/swc-android-arm64" "12.0.5-canary.8"
+    "@next/swc-darwin-arm64" "12.0.5-canary.8"
+    "@next/swc-darwin-x64" "12.0.5-canary.8"
+    "@next/swc-linux-arm-gnueabihf" "12.0.5-canary.8"
+    "@next/swc-linux-arm64-gnu" "12.0.5-canary.8"
+    "@next/swc-linux-arm64-musl" "12.0.5-canary.8"
+    "@next/swc-linux-x64-gnu" "12.0.5-canary.8"
+    "@next/swc-linux-x64-musl" "12.0.5-canary.8"
+    "@next/swc-win32-arm64-msvc" "12.0.5-canary.8"
+    "@next/swc-win32-ia32-msvc" "12.0.5-canary.8"
+    "@next/swc-win32-x64-msvc" "12.0.5-canary.8"
 
 "node-emoji@^1.11.0":
   "integrity" "sha512-wo2DpQkQp7Sjm2A0cq+sN7EHKO6Sl0ctXeBdFZrL9T9+UywORbufTcTZxom8YqpLQt/FqNMUkOpkZrJVYSKD3A=="
