@@ -1,4 +1,4 @@
-.layout {
+.blogs {
   @apply min-h-screen sm:px-0 space-y-16 w-full overflow-x-hidden;
   background-image: radial-gradient(hsla(0, 0%, 25%, 0.25) 1px, transparent 0),
     radial-gradient(hsla(0, 0%, 20%, 0.1) 1px, transparent 0);
@@ -7,12 +7,16 @@
   -webkit-animation: slide 2s linear infinite;
   animation: slide 3s linear infinite;
 }
+
+.h2 {
+  @apply text-2xl sm:text-4xl leading-none font-bold tracking-tight text-gray-500;
+}
 .content {
-  @apply container mx-auto px-4 sm:px-2 md:w-11/12;
+  @apply container  mx-auto px-4 sm:px-2;
 }
 
 .body {
-  @apply flex flex-col md:flex-row;
+  @apply flex flex-col sm:flex-row;
 }
 
 :global(.dark) .layout {
