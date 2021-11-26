@@ -104,7 +104,6 @@ const features: FeatureProps[] = [
 const Home: NextPage = () => {
   return (
     <>
-
       <section className={styles.copy}>
         <div className={styles.copyInner}>
           <a href="/Resume Robert Boskind.pdf">

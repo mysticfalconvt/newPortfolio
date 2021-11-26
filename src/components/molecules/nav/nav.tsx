@@ -1,6 +1,6 @@
 import { Theme, useTheme } from "@/hooks/use-theme";
 import { useRouter } from "next/dist/client/router";
-import { FaHome, FaMicroblog, FaGithub } from 'react-icons/fa';
+import { FaHome, FaMicroblog, FaGithub } from "react-icons/fa";
 import styles from "./nav.module.css";
 import Link from "next/link";
 import Head from "next/head";
@@ -21,23 +21,28 @@ const Nav = (): JSX.Element => {
       </Head>
       <nav className={styles.nav}>
         <NavIcon icon={<FaHome size="30" />} text="Home" link="/" />
-        <NavIcon icon={<FaMicroblog size="30" />} text="Blog Posts" link="/blog" />
-        <NavIcon icon={<FaGithub size="30" />} text="Github Repos" link="/github" />
+        <NavIcon
+          icon={<FaMicroblog size="30" />}
+          text="Blog Posts"
+          link="/blog"
+        />
+        <NavIcon
+          icon={<FaGithub size="30" />}
+          text="Github Repos"
+          link="/github"
+        />
       </nav>
     </>
   );
 };
 
-const NavIcon = ({ icon, text = 'tooltip 💡', link }) => (
+const NavIcon = ({ icon, text = "tooltip 💡", link }) => (
   <Link href={link} passHref>
-    <div className={styles.iconGroup} >
+    <div className={styles.iconGroup}>
       {icon}
-      <span className={styles.iconTooltip} >
-        {text}
-      </span >
-    </div >
+      <span className={styles.iconTooltip}>{text}</span>
+    </div>
   </Link>
 );
-
 
 export default Nav;
