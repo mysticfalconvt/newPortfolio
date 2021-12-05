@@ -24,7 +24,7 @@ const Nav = (): JSX.Element => {
         <NavIcon
           icon={<FaMicroblog size="30" />}
           text="Blog Posts"
-          link="/blog"
+          link="/blogIndex"
         />
         <NavIcon
           icon={<FaGithub size="30" />}

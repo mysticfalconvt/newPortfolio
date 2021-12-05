@@ -25,23 +25,3 @@ type Blog = {
 type props = {
   blogs: Blog[];
 };
-
-export async function getStaticProps(context): Promise<{ props: props }> {
-  console.log("getStaticProps");
-  console.log(context);
-  //sample blog data
-  const blogs: Blog[] = [
-    {
-      title: "Blog Post 1",
-      date: "2020-01-01",
-      content: "This is the first blog post",
-    },
-    {
-      title: "Blog Post 2",
-      date: "2020-01-02",
-      content: "This is the second blog post",
-    },
-  ];
-  console.log(blogs);
-  return { props: { blogs } };
-}

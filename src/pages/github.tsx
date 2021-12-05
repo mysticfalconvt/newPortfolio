@@ -4,13 +4,6 @@ import { useState } from "react";
 import Title from "@/components/atoms/title";
 import Feature from "@/components/molecules/feature";
 
-// interface repo {
-//   title: string;
-//   id: string;
-//   description: string;
-//   link: string;
-// }
-
 interface Props {
   repos: Repo[];
 }
