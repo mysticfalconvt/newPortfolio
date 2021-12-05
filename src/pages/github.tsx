@@ -4,14 +4,25 @@ import { useState } from "react";
 import Title from "@/components/atoms/title";
 import Feature from "@/components/molecules/feature";
 
-interface repo {
-  title?: string;
-  id?: string;
-  description?: string;
-  link?: string;
+// interface repo {
+//   title: string;
+//   id: string;
+//   description: string;
+//   link: string;
+// }
+
+interface Props {
+  repos: Repo[];
 }
 
-const GitHubRepos: NextPage<any> = ({ repos }) => {
+interface Repo {
+  id: string;
+  title: string;
+  description: string;
+  link: string;
+}
+
+const GitHubRepos: NextPage<Props> = ({ repos }) => {
   return (
     <>
       <section className={styles.copy}>
@@ -32,7 +43,7 @@ const GitHubRepos: NextPage<any> = ({ repos }) => {
 };
 
 // get data from the GitHub Api
-export async function getStaticProps() {
+export async function getStaticProps(): Promise<{ props: Props }> {
   // Call an external API endpoint to get repositories.
   const username = "mysticfalconvt";
   const url = `https://api.github.com/users/${username}/repos`;
@@ -43,7 +54,7 @@ export async function getStaticProps() {
     .catch((error) => console.log(error));
 
   //get just the name, description, and html_url of each repo to reduce the size of the data
-  const repos: [object] = reposWithAllInfo.map((repo) => {
+  const repos: [Repo] = reposWithAllInfo.map((repo) => {
     return {
       title: repo.name,
       id: repo.id,
