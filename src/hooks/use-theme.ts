@@ -10,6 +10,10 @@ export const useTheme = (): {
   setTheme: (theme: Theme) => void;
 } => {
   const props = useNextTheme();
+  // check if theme is set to system and if it is set to dark
+  if (props.theme === "system") {
+    props.setTheme("dark");
+  }
 
   return {
     isDarkTheme: props.theme === Theme.dark,
