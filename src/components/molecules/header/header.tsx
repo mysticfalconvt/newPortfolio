@@ -35,8 +35,13 @@ const Header = (): JSX.Element => {
         className={styles.themeButton}
         onClick={() => setTheme(isDarkTheme ? Theme.light : Theme.dark)}
       >
-        <span className={styles.themeButtonEmoji}>
-          {isDarkTheme ? `☀️` : `🌚`}
+        <span className={styles.hasTooltip}>
+          <span className={styles.themeButtonEmoji}>
+            {isDarkTheme ? `☀️` : `🌚`}
+            <span className={styles.tooltip}>
+              {isDarkTheme ? `Light Mode` : `Dark Mode`}
+            </span>
+          </span>
         </span>
       </button>
     </header>
