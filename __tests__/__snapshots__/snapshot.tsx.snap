@@ -138,6 +138,26 @@ Array [
     >
       <a
         className="feature"
+        href="https://www.polywork.com/robboskind"
+      >
+        <h2
+          className="title"
+        >
+          Polywork
+           →
+        </h2>
+        <p
+          className="description"
+        >
+          Polywork is a professional network where people highlight all kinds of things they do. ... No more job titles and descriptions that don't fit your work.
+        </p>
+      </a>
+    </div>
+    <div
+      className="feature"
+    >
+      <a
+        className="feature"
         href="https://nextjs.org/"
       >
         <h2

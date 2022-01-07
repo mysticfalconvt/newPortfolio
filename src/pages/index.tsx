@@ -29,6 +29,12 @@ const features: FeatureProps[] = [
     link: "https://textbasedstarter-1.grimgarbage.repl.co/",
   },
   {
+    title: "Polywork",
+    description:
+      "Polywork is a professional network where people highlight all kinds of things they do. ... No more job titles and descriptions that don't fit your work.",
+    link: "https://www.polywork.com/robboskind",
+  },
+  {
     title: "Next.js",
     description:
       "Best developer experience with all the features you need for production: hybrid static & server rendering",
