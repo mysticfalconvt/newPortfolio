@@ -58,6 +58,26 @@ Array [
     >
       <a
         className="feature"
+        href="https://www.stardog.com/"
+      >
+        <h2
+          className="title"
+        >
+          Software Engineer
+           →
+        </h2>
+        <p
+          className="description"
+        >
+          Visual Experience Team at Stardog. Building a data visualization tool for the Semantic Graph Database.
+        </p>
+      </a>
+    </div>
+    <div
+      className="feature"
+    >
+      <a
+        className="feature"
         href="https://github.com/mysticfalconvt"
       >
         <h2

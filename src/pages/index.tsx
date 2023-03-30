@@ -6,6 +6,12 @@ import Title from "@/components/atoms/title";
 
 const features: FeatureProps[] = [
   {
+    title: "Software Engineer",
+    description:
+      "Visual Experience Team at Stardog. Building a data visualization tool for the Semantic Graph Database.",
+    link: "https://www.stardog.com/",
+  },
+  {
     title: "Full-Stack Developer",
     description:
       "I build applications from idea to production serving many daily users.",
